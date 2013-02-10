@@ -1,0 +1,5 @@
+rewriteengine on   
+rewritebase /
+rewriterule getActiveCode index.php?type=0
+rewriterule checkActive index.php?type=1
+rewriterule activate index.php?type=2
